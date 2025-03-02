@@ -100,11 +100,20 @@ GET      | /api/recommendations/ | Get recommended resources
 🔗 Contributing
 🙌 We welcome contributions! Follow these steps:
 
-Fork the repository.
-Create a new branch (git checkout -b feature-name).
-Commit changes (git commit -m "Added new feature").
-Push to the branch (git push origin feature-name).
-Create a Pull Request.
+1. Fork the repository.
+2. Create a new branch:
+   ```bash
+git checkout -b feature-name
+    ```
+3. Commit changes:
+```bash
+git commit -m "Added new feature"
+```
+4. Push to the branch:
+```bash
+git push origin feature-name
+```
+5. Create a Pull Request.
 
 ---
 
