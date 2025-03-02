@@ -56,7 +56,8 @@ npm start
 ---
 
 
-📊 Project Architecture
+## 📊 Project Architecture  
+```plaintext
 R-Archive/
 │── backend/              # Django backend
 │   ├── api/              # API for document management
@@ -71,6 +72,7 @@ R-Archive/
 │── requirements.txt      # Backend dependencies
 │── package.json          # Frontend dependencies
 │── .gitignore            # Files to ignore in Git
+```
 
 ---
 
