@@ -33,9 +33,11 @@ R-Archive is a **web-based digital library** that allows users to **archive, acc
 ## ⚙️ Installation & Setup  
 
 ### **1️⃣ Clone the Repository**  
-```bash
 git clone https://github.com/your-username/R-Archive.git
 cd R-Archive
+
+---
+
 
 2️⃣ Backend Setup (Django API)
 cd backend
@@ -45,10 +47,16 @@ pip install -r requirements.txt
 python manage.py migrate
 python manage.py runserver
 
+---
+
+
 3️⃣ Frontend Setup (React)
 cd frontend
 npm install
 npm start
+
+
+---
 
 
 📊 Project Architecture
@@ -67,12 +75,16 @@ R-Archive/
 │── package.json          # Frontend dependencies
 │── .gitignore            # Files to ignore in Git
 
+---
+
 📈 Machine Learning Workflow
 User Activity Tracking – System collects user ratings & resource interactions.
 Preprocessing Data – Cleans and formats user-resource interaction data.
 K-Means Clustering – Groups users based on behavior.
 Elbow Method – Determines optimal clusters.
 Recommendation Engine – Suggests relevant documents.
+
+---
 
 📄 API Endpoints
 Method	Endpoint	Description
@@ -81,6 +93,8 @@ POST	/api/login/	User authentication
 GET	/api/documents/	Fetch all documents
 POST	/api/upload/	Upload new document
 GET	/api/recommendations/	Get recommended resources
+
+---
 
 🔗 Contributing
 🙌 We welcome contributions! Follow these steps:
@@ -91,8 +105,12 @@ Commit changes (git commit -m "Added new feature").
 Push to the branch (git push origin feature-name).
 Create a Pull Request.
 
+---
+
 📜 License
 This project is licensed under the MIT License – feel free to use and improve it!
+
+---
 
 📩 Contact & Support
 For any issues or feature requests, open an issue in the repository or reach out via yubrazkarkee7917@gmail.com.
