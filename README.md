@@ -77,21 +77,23 @@ R-Archive/
 ---
 
 📈 Machine Learning Workflow
-User Activity Tracking – System collects user ratings & resource interactions.
-Preprocessing Data – Cleans and formats user-resource interaction data.
-K-Means Clustering – Groups users based on behavior.
-Elbow Method – Determines optimal clusters.
-Recommendation Engine – Suggests relevant documents.
+1. User Activity Tracking – System collects user ratings & resource interactions.
+2. Preprocessing Data – Cleans and formats user-resource interaction data.
+3. K-Means Clustering – Groups users based on behavior.
+4. Elbow Method – Determines optimal clusters.
+5. Recommendation Engine – Suggests relevant documents.
 
 ---
 
 📄 API Endpoints
-Method	Endpoint	Description
-POST	/api/register/	User registration
-POST	/api/login/	User authentication
-GET	/api/documents/	Fetch all documents
-POST	/api/upload/	Upload new document
-GET	/api/recommendations/	Get recommended resources
+Method   | Endpoint              | Description  
+---------|-----------------------|------------------------------  
+POST     | /api/register/        | User registration  
+POST     | /api/login/           | User authentication  
+GET      | /api/documents/       | Fetch all documents  
+POST     | /api/upload/          | Upload new document  
+GET      | /api/recommendations/ | Get recommended resources  
+
 
 ---
 
